@@ -1,0 +1,132 @@
+
+body{
+    background-color: whitesmoke;
+}
+
+.gradient-text {
+    background: linear-gradient(
+            #FFA500,
+            #FF1493,
+            #BA55D3
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2.25rem;
+    display: inline-block;
+}
+.footer{
+    width: 500px;
+}
+
+div{
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+ margin-right: auto;
+}
+
+.div-upload{
+    display: flex;
+    width: 100%;
+    text-align: center;
+
+}
+.upload-1{
+    position: relative;
+   align-items: center;
+}
+#input1{
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: linear-gradient(
+            to bottom right,
+            #FFA500,
+            #FF1493,
+            #BA55D3
+    );
+    color: black;
+}
+#input2{
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: linear-gradient(
+            #FFA500,
+            #FF1493,
+            #BA55D3
+    );
+    color: black;
+}
+#btn {
+    margin-top: 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: midnightblue;
+    padding: 15px;
+    text-align: center;
+    width: 100px;
+    border: 2px solid midnightblue;
+    cursor: pointer;
+
+    transition: background 0.5s ease;
+}
+
+#btn:hover {
+    position: relative;
+    top: 5px;
+    background: linear-gradient(
+            45deg,
+            #FFA500,
+            #FF1493,
+            #BA55D3
+    );
+    border: 2px solid black;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+#result{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.lista{
+    text-align: left;
+    width: 500px;
+}
+body > div > h3 > u > a{
+    color: black;
+}
+body > div > h3 > u > a:hover{
+    color: #BA55D3;
+
+}
+.about{
+    width: 500px;
+}
+@media (min-width: 1024px) {
+    .gradient-text {
+        font-size: 2rem;
+    }
+}
+@media (max-width:500px) {
+    .main{
+        width: 300px;
+    }
+    #input1{
+        width: 85px;
+    }
+    .lista{
+        width: 300px;
+    }
+    #input2{
+        width: 85px;
+    }
+    .footer{
+        width: 300px;
+    }
+}
+
